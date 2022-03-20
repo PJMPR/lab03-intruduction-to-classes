@@ -1,12 +1,10 @@
 @startuml test
 
-Instance <|-- VulkanRootObject
 
-class Instance {
-    -- Contructors & destructors --
-    - Instance()
-    
-    -- Public methods --
+class Product {
+    + name : String
+    + price : double
+    --
     + Initialize() : bool
 }
 
