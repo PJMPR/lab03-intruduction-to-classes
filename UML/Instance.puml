@@ -6,5 +6,11 @@ class Product {
     + price : double
 }
 
+DiscountCalculator "1" *-- "many" Product
+
+class DiscountCalculator {
+    + products : ArrayList<Product>
+
+}
 
 @enduml
