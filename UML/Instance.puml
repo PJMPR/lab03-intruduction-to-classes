@@ -16,4 +16,11 @@ class DiscountCalculator {
     + threeForPriceOfTwo(minimumPrice : double, percentage: double) : void
 }
 
+class ProductsSorter {
+    {static}  sort(products : ArrayList<Product>) : ArrayList<Product>
+    {static}  mostExpensive(products : ArrayList<Product>) : Product
+    {static}  theCheapest(products : ArrayList<Product>) : Product
+    {static}  theCheapest(products : ArrayList<Product>, n : int) : ArrayList<Product>
+}
+
 @enduml
