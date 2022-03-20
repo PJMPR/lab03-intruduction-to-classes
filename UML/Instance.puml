@@ -4,8 +4,7 @@
 class Product {
     + name : String
     + price : double
-    --
-    + Initialize() : bool
 }
+
 
 @enduml
