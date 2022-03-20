@@ -25,7 +25,7 @@ public abstract class DiscountBase {
     protected Product p4 = new Product();
 
     @BeforeEach
-    void setUp() {
+    protected void setUp() {
         p1.price=300;
         p2.price=200;
         p3.price=100;

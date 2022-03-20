@@ -12,7 +12,8 @@ import static org.hamcrest.Matchers.*;
 public class ThreeForTwoDiscountTest extends DiscountBase {
 
     @Test
-    public void it_should_properly_set_new_price_to_0_test(){
+    public void test_it_should_properly_set_new_price_to_0_test(){
+        setUp();
         calculator.threeForPriceOfTwo();
         assertThat(p3.price, is(0.0));
     }
