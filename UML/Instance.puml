@@ -6,11 +6,14 @@ class Product {
     + price : double
 }
 
-DiscountCalculator "1" *-- "many" Product
+DiscountCalculator "1" *- "many" Product
 
 class DiscountCalculator {
     + products : ArrayList<Product>
-
+    ----
+    + discountByPercentage(minimumPrice : double, percentage: double) : void
+    + addFreeCompanyGlass(minimumPrice : double, percentage: double) : void
+    + threeForPriceOfTwo(minimumPrice : double, percentage: double) : void
 }
 
 @enduml

@@ -17,7 +17,7 @@ Twoim zadaniem jest zaimplementowanie logiki, operującej na obiektach typu ‘P
 która umożliwiałaby: 
 
 1. Wyszukiwanie najtańszego/najdroższego produktu w zadanej kolekcji produktów
-2. Wyszukiwanie n najtańszych/najdrożyszych produktów w zadanej kolekcji
+2. Wyszukiwanie n najtańszych produktów w zadanej kolekcji
 produktów
 3. Sortowanie kolekcji produktów po cenie jak i po nazwie
 4. Wyliczanie sumy cen wszystkich zadanych produktów
