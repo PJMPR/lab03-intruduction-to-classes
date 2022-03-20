@@ -25,4 +25,3 @@ produktów
 produktów
 6. Aplikowanie opisanych powyżej rodzajów promocji na zadanej kolekcji produktów 
 
-![Class Diagram](http://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/PJMPR/lab03-intruduction-to-classes/main/UML/Instance.puml)
