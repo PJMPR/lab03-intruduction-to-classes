@@ -16,6 +16,8 @@ public class ProductsHelperApplication {
         names.add("Maciej");
         names.add("Krzysztof");
 
+        System.out.println("Ola znajduje się na indeksie: " + names.indexOf("Ola"));
+
         names.remove("Jan");
                 //Adam, Ola, Ania, Maciej, Krzysztof
 
