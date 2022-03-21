@@ -12,8 +12,8 @@ class DiscountCalculator {
     + products : ArrayList<Product>
     ----
     + discountByPercentage(minimumPrice : double, percentage: double) : void
-    + addFreeCompanyGlass(minimumPrice : double, percentage: double) : void
-    + threeForPriceOfTwo(minimumPrice : double, percentage: double) : void
+    + addFreeCompanyGlass(minimumPrice : double) : void
+    + threeForPriceOfTwo() : void
 }
 
 class ProductsSorter {
