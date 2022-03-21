@@ -29,6 +29,6 @@ public class Discount5Test extends DiscountBase {
         assertThat(p1.price, is(270.0));
         assertThat(p2.price, is(180.0));
         assertThat(p3.price, is(90.0));
-        assertThat(p4.price, is(500.0));
+        assertThat(p4.price, is(450.0));
     }
 }
