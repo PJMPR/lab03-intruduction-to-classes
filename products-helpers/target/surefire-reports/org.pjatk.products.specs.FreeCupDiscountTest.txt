@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: org.pjatk.products.specs.FreeCupDiscountTest
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.023 sec <<< FAILURE!
+org.pjatk.products.specs.FreeCupDiscountTest.test_add_free_company_glass()  Time elapsed: 0.009 sec  <<< FAILURE!
+java.lang.AssertionError: 
+Expected: a collection with size <5>
+     but: collection size was <4>
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:6)
+	at org.pjatk.products.specs.FreeCupDiscountTest.test_add_free_company_glass(FreeCupDiscountTest.java:24)
+

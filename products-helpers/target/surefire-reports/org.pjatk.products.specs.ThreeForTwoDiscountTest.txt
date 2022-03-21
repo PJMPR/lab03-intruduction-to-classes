@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: org.pjatk.products.specs.ThreeForTwoDiscountTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.021 sec <<< FAILURE!
+org.pjatk.products.specs.ThreeForTwoDiscountTest.test_it_should_properly_set_new_price_to_0_test()  Time elapsed: 0.018 sec  <<< FAILURE!
+java.lang.AssertionError: 
+Expected: is <0.0>
+     but: was <100.0>
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:6)
+	at org.pjatk.products.specs.ThreeForTwoDiscountTest.test_it_should_properly_set_new_price_to_0_test(ThreeForTwoDiscountTest.java:18)
+

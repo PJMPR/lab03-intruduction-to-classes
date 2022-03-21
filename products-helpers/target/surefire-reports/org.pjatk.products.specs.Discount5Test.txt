@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: org.pjatk.products.specs.Discount5Test
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0 sec <<< FAILURE!
+org.pjatk.products.specs.Discount5Test.test_should_Properly_Count_DiscountRateTest()  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: 
+Expected: is <270.0>
+     but: was <300.0>
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:6)
+	at org.pjatk.products.specs.Discount5Test.test_should_Properly_Count_DiscountRateTest(Discount5Test.java:29)
+

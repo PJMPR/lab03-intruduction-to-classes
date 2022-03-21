@@ -1,0 +1,28 @@
+-------------------------------------------------------------------------------
+Test set: org.pjatk.products.specs.SortProductsTest
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 0.032 sec <<< FAILURE!
+org.pjatk.products.specs.SortProductsTest.test_should_get_the_most_expensive_product()  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: 
+Expected: is <org.pjatk.products.Product@6ae40994>
+     but: was null
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:6)
+	at org.pjatk.products.specs.SortProductsTest.test_should_get_the_most_expensive_product(SortProductsTest.java:25)
+
+org.pjatk.products.specs.SortProductsTest.test_should_get_n_cheapest_products_test()  Time elapsed: 0.016 sec  <<< FAILURE!
+java.lang.AssertionError: 
+Expected: iterable with items [<org.pjatk.products.Product@ea30797>, <org.pjatk.products.Product@7e774085>] in any order
+     but: was null
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:6)
+	at org.pjatk.products.specs.SortProductsTest.test_should_get_n_cheapest_products_test(SortProductsTest.java:36)
+
+org.pjatk.products.specs.SortProductsTest.test_should_get_the_cheapest_product_test()  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: 
+Expected: is <org.pjatk.products.Product@7e774085>
+     but: was null
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:6)
+	at org.pjatk.products.specs.SortProductsTest.test_should_get_the_cheapest_product_test(SortProductsTest.java:31)
+
