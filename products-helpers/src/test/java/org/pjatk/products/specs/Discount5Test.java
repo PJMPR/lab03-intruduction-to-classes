@@ -13,7 +13,7 @@ public class Discount5Test extends DiscountBase {
     @Test
     public void test_should_Properly_Count_when_price_is_too_low_DiscountRate(){
         setUp();
-        calculator.discountByPercentage(10000.0, 10);
+        calculator.discountByPercentage(10000.0, 0.1);
 
         assertThat(p1.price, is(300.0));
         assertThat(p2.price, is(200.0));
@@ -24,7 +24,7 @@ public class Discount5Test extends DiscountBase {
     @Test
     public void test_should_Properly_Count_DiscountRateTest(){
         setUp();
-        calculator.discountByPercentage(1000.0, 10);
+        calculator.discountByPercentage(1000.0, 0.1);
 
         assertThat(p1.price, is(270.0));
         assertThat(p2.price, is(180.0));
