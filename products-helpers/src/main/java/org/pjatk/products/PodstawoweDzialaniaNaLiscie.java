@@ -2,10 +2,9 @@ package org.pjatk.products;
 
 import java.util.ArrayList;
 
-public class ProductsHelperApplication {
+public class PodstawoweDzialaniaNaLiscie {
 
     public static void main(String[] args){
-        System.out.println("działam");
 
         ArrayList<String> names = new ArrayList<String>();
 

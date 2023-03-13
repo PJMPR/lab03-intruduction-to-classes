@@ -20,7 +20,7 @@ public class FreeCupDiscountTest extends DiscountBase {
     @Test
     public void test_add_free_company_glass(){
         setUp();
-        calculator.addFreeCompanyGlass(10000.0);
+        calculator.addFreeCompanyGlass(1000.0);
         assertThat(products, hasSize(5));
     }
 }
